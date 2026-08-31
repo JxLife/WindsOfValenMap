@@ -1534,5 +1534,13 @@
     "label": "Fishing Spot: Bass",
     "type": "fishing",
     "wikiTitle": "Bass"
+  },
+  {
+    "id": "boss-fire-lich",
+    "x": 740,
+    "y": 2517,
+    "label": "Fire Lich",
+    "type": "boss",
+    "wikiTitle": "Fire Lich"
   }
 ]
