@@ -320,14 +320,6 @@
     "wikiTitle": "Mining"
   },
   {
-    "id": "game-3-marker-fishingspot",
-    "x": 2161,
-    "y": 1476,
-    "label": "Fishing Spot",
-    "type": "fishing",
-    "wikiTitle": "Fishing"
-  },
-  {
     "id": "game-4-marker-wandshop",
     "x": 2366,
     "y": 1372,
@@ -342,14 +334,6 @@
     "label": "Respawn",
     "type": "location",
     "wikiTitle": "Getting Started"
-  },
-  {
-    "id": "game-6-marker-fishingspot",
-    "x": 2232,
-    "y": 1488,
-    "label": "Fishing Spot",
-    "type": "fishing",
-    "wikiTitle": "Fishing"
   },
   {
     "id": "game-7-marker-archeryshop",
@@ -392,36 +376,12 @@
     "wikiTitle": "Mining"
   },
   {
-    "id": "game-12-marker-fishingspot",
-    "x": 2468,
-    "y": 1489,
-    "label": "Fishing Spot",
-    "type": "fishing",
-    "wikiTitle": "Fishing"
-  },
-  {
     "id": "game-13-marker-weaponshop",
     "x": 2417,
     "y": 1306,
     "label": "Weapon Shop",
     "type": "location",
     "wikiTitle": "Combat"
-  },
-  {
-    "id": "game-14-marker-fishingspot",
-    "x": 2579,
-    "y": 1536,
-    "label": "Fishing Spot",
-    "type": "fishing",
-    "wikiTitle": "Fishing"
-  },
-  {
-    "id": "game-15-marker-fishingspot",
-    "x": 2669,
-    "y": 1630,
-    "label": "Fishing Spot",
-    "type": "fishing",
-    "wikiTitle": "Fishing"
   },
   {
     "id": "game-16-marker-cuttingtable",
@@ -542,38 +502,6 @@
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
-  },
-  {
-    "id": "game-31-marker-fishingspot",
-    "x": 3433,
-    "y": 1354,
-    "label": "Fishing Spot",
-    "type": "fishing",
-    "wikiTitle": "Fishing"
-  },
-  {
-    "id": "game-32-marker-fishingspot",
-    "x": 3561,
-    "y": 1158,
-    "label": "Fishing Spot",
-    "type": "fishing",
-    "wikiTitle": "Fishing"
-  },
-  {
-    "id": "game-33-marker-fishingspot",
-    "x": 3746,
-    "y": 1321,
-    "label": "Fishing Spot",
-    "type": "fishing",
-    "wikiTitle": "Fishing"
-  },
-  {
-    "id": "game-34-marker-fishingspot",
-    "x": 3800,
-    "y": 1290,
-    "label": "Fishing Spot",
-    "type": "fishing",
-    "wikiTitle": "Fishing"
   },
   {
     "id": "game-35-marker-bank",
@@ -1206,5 +1134,405 @@
     "label": "Farmlands",
     "type": "area",
     "wikiTitle": "Farmlands"
+  },
+  {
+    "id": "fish-1-bigtrout",
+    "x": 2157,
+    "y": 1469,
+    "label": "Fishing Spot: Elder Trout",
+    "type": "fishing",
+    "wikiTitle": "Elder Trout"
+  },
+  {
+    "id": "fish-2-bigtrout",
+    "x": 2155,
+    "y": 1453,
+    "label": "Fishing Spot: Elder Trout",
+    "type": "fishing",
+    "wikiTitle": "Elder Trout"
+  },
+  {
+    "id": "fish-3-bigtrout",
+    "x": 2170,
+    "y": 1467,
+    "label": "Fishing Spot: Elder Trout",
+    "type": "fishing",
+    "wikiTitle": "Elder Trout"
+  },
+  {
+    "id": "fish-4-bigtrout",
+    "x": 2186,
+    "y": 1474,
+    "label": "Fishing Spot: Elder Trout",
+    "type": "fishing",
+    "wikiTitle": "Elder Trout"
+  },
+  {
+    "id": "fish-5-bigtrout",
+    "x": 2225,
+    "y": 1487,
+    "label": "Fishing Spot: Elder Trout",
+    "type": "fishing",
+    "wikiTitle": "Elder Trout"
+  },
+  {
+    "id": "fish-6-bigtrout",
+    "x": 2239,
+    "y": 1489,
+    "label": "Fishing Spot: Elder Trout",
+    "type": "fishing",
+    "wikiTitle": "Elder Trout"
+  },
+  {
+    "id": "fish-7-bigtrout",
+    "x": 2162,
+    "y": 1501,
+    "label": "Fishing Spot: Elder Trout",
+    "type": "fishing",
+    "wikiTitle": "Elder Trout"
+  },
+  {
+    "id": "fish-8-bigtrout",
+    "x": 2137,
+    "y": 1491,
+    "label": "Fishing Spot: Elder Trout",
+    "type": "fishing",
+    "wikiTitle": "Elder Trout"
+  },
+  {
+    "id": "fish-9-carp",
+    "x": 3800,
+    "y": 1290,
+    "label": "Fishing Spot: Carp",
+    "type": "fishing",
+    "wikiTitle": "Carp"
+  },
+  {
+    "id": "fish-10-carp",
+    "x": 3717,
+    "y": 1326,
+    "label": "Fishing Spot: Carp",
+    "type": "fishing",
+    "wikiTitle": "Carp"
+  },
+  {
+    "id": "fish-11-carp",
+    "x": 3735,
+    "y": 1300,
+    "label": "Fishing Spot: Carp",
+    "type": "fishing",
+    "wikiTitle": "Carp"
+  },
+  {
+    "id": "fish-12-carp",
+    "x": 3743,
+    "y": 1342,
+    "label": "Fishing Spot: Carp",
+    "type": "fishing",
+    "wikiTitle": "Carp"
+  },
+  {
+    "id": "fish-13-carp",
+    "x": 3780,
+    "y": 1338,
+    "label": "Fishing Spot: Carp",
+    "type": "fishing",
+    "wikiTitle": "Carp"
+  },
+  {
+    "id": "fish-14-carp",
+    "x": 3757,
+    "y": 1297,
+    "label": "Fishing Spot: Carp",
+    "type": "fishing",
+    "wikiTitle": "Carp"
+  },
+  {
+    "id": "fish-15-smallbass",
+    "x": 3424,
+    "y": 1367,
+    "label": "Fishing Spot: Bass",
+    "type": "fishing",
+    "wikiTitle": "Bass"
+  },
+  {
+    "id": "fish-16-smallbass",
+    "x": 3436,
+    "y": 1366,
+    "label": "Fishing Spot: Bass",
+    "type": "fishing",
+    "wikiTitle": "Bass"
+  },
+  {
+    "id": "fish-17-smallbass",
+    "x": 3446,
+    "y": 1352,
+    "label": "Fishing Spot: Bass",
+    "type": "fishing",
+    "wikiTitle": "Bass"
+  },
+  {
+    "id": "fish-18-smallbass",
+    "x": 3435,
+    "y": 1343,
+    "label": "Fishing Spot: Bass",
+    "type": "fishing",
+    "wikiTitle": "Bass"
+  },
+  {
+    "id": "fish-19-smallbass",
+    "x": 3423,
+    "y": 1344,
+    "label": "Fishing Spot: Bass",
+    "type": "fishing",
+    "wikiTitle": "Bass"
+  },
+  {
+    "id": "fish-20-minnows",
+    "x": 2439,
+    "y": 1489,
+    "label": "Fishing Spot: Minnow",
+    "type": "fishing",
+    "wikiTitle": "Minnow"
+  },
+  {
+    "id": "fish-21-minnows",
+    "x": 2455,
+    "y": 1489,
+    "label": "Fishing Spot: Minnow",
+    "type": "fishing",
+    "wikiTitle": "Minnow"
+  },
+  {
+    "id": "fish-22-minnows",
+    "x": 2471,
+    "y": 1484,
+    "label": "Fishing Spot: Minnow",
+    "type": "fishing",
+    "wikiTitle": "Minnow"
+  },
+  {
+    "id": "fish-23-minnows",
+    "x": 2483,
+    "y": 1484,
+    "label": "Fishing Spot: Minnow",
+    "type": "fishing",
+    "wikiTitle": "Minnow"
+  },
+  {
+    "id": "fish-24-minnows",
+    "x": 2495,
+    "y": 1493,
+    "label": "Fishing Spot: Minnow",
+    "type": "fishing",
+    "wikiTitle": "Minnow"
+  },
+  {
+    "id": "fish-25-minnows",
+    "x": 2510,
+    "y": 1494,
+    "label": "Fishing Spot: Minnow",
+    "type": "fishing",
+    "wikiTitle": "Minnow"
+  },
+  {
+    "id": "fish-26-minnows",
+    "x": 2422,
+    "y": 1490,
+    "label": "Fishing Spot: Minnow",
+    "type": "fishing",
+    "wikiTitle": "Minnow"
+  },
+  {
+    "id": "fish-27-perch",
+    "x": 2651,
+    "y": 1630,
+    "label": "Fishing Spot: Perch",
+    "type": "fishing",
+    "wikiTitle": "Perch"
+  },
+  {
+    "id": "fish-28-perch",
+    "x": 2633,
+    "y": 1619,
+    "label": "Fishing Spot: Perch",
+    "type": "fishing",
+    "wikiTitle": "Perch"
+  },
+  {
+    "id": "fish-29-perch",
+    "x": 2697,
+    "y": 1644,
+    "label": "Fishing Spot: Perch",
+    "type": "fishing",
+    "wikiTitle": "Perch"
+  },
+  {
+    "id": "fish-30-perch",
+    "x": 2691,
+    "y": 1626,
+    "label": "Fishing Spot: Perch",
+    "type": "fishing",
+    "wikiTitle": "Perch"
+  },
+  {
+    "id": "fish-31-perch",
+    "x": 2673,
+    "y": 1632,
+    "label": "Fishing Spot: Perch",
+    "type": "fishing",
+    "wikiTitle": "Perch"
+  },
+  {
+    "id": "fish-32-smalltrouts",
+    "x": 2564,
+    "y": 1548,
+    "label": "Fishing Spot: Common Trout",
+    "type": "fishing",
+    "wikiTitle": "Common Trout"
+  },
+  {
+    "id": "fish-33-smalltrouts",
+    "x": 2551,
+    "y": 1543,
+    "label": "Fishing Spot: Common Trout",
+    "type": "fishing",
+    "wikiTitle": "Common Trout"
+  },
+  {
+    "id": "fish-34-smalltrouts",
+    "x": 2537,
+    "y": 1537,
+    "label": "Fishing Spot: Common Trout",
+    "type": "fishing",
+    "wikiTitle": "Common Trout"
+  },
+  {
+    "id": "fish-35-smalltrouts",
+    "x": 2585,
+    "y": 1518,
+    "label": "Fishing Spot: Common Trout",
+    "type": "fishing",
+    "wikiTitle": "Common Trout"
+  },
+  {
+    "id": "fish-36-smalltrouts",
+    "x": 2572,
+    "y": 1513,
+    "label": "Fishing Spot: Common Trout",
+    "type": "fishing",
+    "wikiTitle": "Common Trout"
+  },
+  {
+    "id": "fish-37-smalltrouts",
+    "x": 2598,
+    "y": 1535,
+    "label": "Fishing Spot: Common Trout",
+    "type": "fishing",
+    "wikiTitle": "Common Trout"
+  },
+  {
+    "id": "fish-38-smalltrouts",
+    "x": 2604,
+    "y": 1548,
+    "label": "Fishing Spot: Common Trout",
+    "type": "fishing",
+    "wikiTitle": "Common Trout"
+  },
+  {
+    "id": "fish-39-smalltrouts",
+    "x": 2620,
+    "y": 1548,
+    "label": "Fishing Spot: Common Trout",
+    "type": "fishing",
+    "wikiTitle": "Common Trout"
+  },
+  {
+    "id": "fish-40-bluegill",
+    "x": 3531,
+    "y": 1169,
+    "label": "Fishing Spot: Blue Gill",
+    "type": "fishing",
+    "wikiTitle": "Blue Gill"
+  },
+  {
+    "id": "fish-41-bluegill",
+    "x": 3545,
+    "y": 1160,
+    "label": "Fishing Spot: Blue Gill",
+    "type": "fishing",
+    "wikiTitle": "Blue Gill"
+  },
+  {
+    "id": "fish-42-bluegill",
+    "x": 3560,
+    "y": 1144,
+    "label": "Fishing Spot: Blue Gill",
+    "type": "fishing",
+    "wikiTitle": "Blue Gill"
+  },
+  {
+    "id": "fish-43-bluegill",
+    "x": 3518,
+    "y": 1180,
+    "label": "Fishing Spot: Blue Gill",
+    "type": "fishing",
+    "wikiTitle": "Blue Gill"
+  },
+  {
+    "id": "fish-44-bluegill",
+    "x": 3504,
+    "y": 1193,
+    "label": "Fishing Spot: Blue Gill",
+    "type": "fishing",
+    "wikiTitle": "Blue Gill"
+  },
+  {
+    "id": "fish-45-bluegill",
+    "x": 3492,
+    "y": 1206,
+    "label": "Fishing Spot: Blue Gill",
+    "type": "fishing",
+    "wikiTitle": "Blue Gill"
+  },
+  {
+    "id": "fish-46-smallbass",
+    "x": 3618,
+    "y": 1115,
+    "label": "Fishing Spot: Bass",
+    "type": "fishing",
+    "wikiTitle": "Bass"
+  },
+  {
+    "id": "fish-47-smallbass",
+    "x": 3599,
+    "y": 1154,
+    "label": "Fishing Spot: Bass",
+    "type": "fishing",
+    "wikiTitle": "Bass"
+  },
+  {
+    "id": "fish-48-smallbass",
+    "x": 3609,
+    "y": 1140,
+    "label": "Fishing Spot: Bass",
+    "type": "fishing",
+    "wikiTitle": "Bass"
+  },
+  {
+    "id": "fish-49-smallbass",
+    "x": 3583,
+    "y": 1148,
+    "label": "Fishing Spot: Bass",
+    "type": "fishing",
+    "wikiTitle": "Bass"
+  },
+  {
+    "id": "fish-50-smallbass",
+    "x": 3607,
+    "y": 1127,
+    "label": "Fishing Spot: Bass",
+    "type": "fishing",
+    "wikiTitle": "Bass"
   }
 ]
