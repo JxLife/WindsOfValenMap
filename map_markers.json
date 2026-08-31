@@ -1222,5 +1222,37 @@
     "label": "Fishing Spot: Blue Gill",
     "type": "fishing",
     "wikiTitle": "Blue Gill"
+  },
+  {
+    "id": "boar-1",
+    "x": 2109,
+    "y": 1737,
+    "label": "Boar",
+    "type": "enemy",
+    "wikiTitle": "Boar"
+  },
+  {
+    "id": "boar-2",
+    "x": 2005,
+    "y": 1896,
+    "label": "Boar",
+    "type": "enemy",
+    "wikiTitle": "Boar"
+  },
+  {
+    "id": "boar-3",
+    "x": 2187,
+    "y": 2040,
+    "label": "Boar",
+    "type": "enemy",
+    "wikiTitle": "Boar"
+  },
+  {
+    "id": "boar-4",
+    "x": 1895,
+    "y": 1758,
+    "label": "Boar",
+    "type": "enemy",
+    "wikiTitle": "Boar"
   }
 ]
