@@ -46,8 +46,8 @@
   function fitToViewport() {
     const vw = viewport.clientWidth;
     const vh = viewport.clientHeight;
-    const iw = mapImage.naturalWidth || 5376;
-    const ih = mapImage.naturalHeight || 4992;
+    const iw = mapImage.naturalWidth || 7332;
+    const ih = mapImage.naturalHeight || 7332;
     scale = Math.min(vw / iw, vh / ih);
     offsetX = (vw - iw * scale) / 2;
     offsetY = (vh - ih * scale) / 2;
