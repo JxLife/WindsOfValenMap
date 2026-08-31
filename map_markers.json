@@ -8,14 +8,6 @@
     "wikiTitle": "Getting Started"
   },
   {
-    "id": "poi-2-bank",
-    "x": 2376,
-    "y": 1296,
-    "label": "Bank",
-    "type": "location",
-    "wikiTitle": "Getting Started"
-  },
-  {
     "id": "poi-3-jewelry",
     "x": 2369,
     "y": 1322,
@@ -28,14 +20,6 @@
     "x": 2504,
     "y": 1311,
     "label": "Forge",
-    "type": "location",
-    "wikiTitle": "Smithing"
-  },
-  {
-    "id": "poi-5-anvil",
-    "x": 2496,
-    "y": 1323,
-    "label": "Anvil",
     "type": "location",
     "wikiTitle": "Smithing"
   },
@@ -104,28 +88,12 @@
     "wikiTitle": "Goblin Berserker"
   },
   {
-    "id": "poi-e-bank",
-    "x": 1668,
-    "y": 1870,
-    "label": "Bank",
-    "type": "location",
-    "wikiTitle": "Getting Started"
-  },
-  {
     "id": "poi-f-coal-rock",
     "x": 1224,
     "y": 1946,
     "label": "Coal Rock",
     "type": "ore",
     "wikiTitle": "Coal Rock"
-  },
-  {
-    "id": "poi-g-bank",
-    "x": 3487,
-    "y": 956,
-    "label": "Bank",
-    "type": "location",
-    "wikiTitle": "Getting Started"
   },
   {
     "id": "poi-h-mithril",
@@ -248,28 +216,12 @@
     "wikiTitle": "Tin Ore"
   },
   {
-    "id": "poi-w-bank",
-    "x": 1198,
-    "y": 2536,
-    "label": "Bank",
-    "type": "location",
-    "wikiTitle": "Getting Started"
-  },
-  {
     "id": "poi-x-heal",
     "x": 1187,
     "y": 2511,
     "label": "Heal",
     "type": "location",
     "wikiTitle": "Getting Started"
-  },
-  {
-    "id": "poi-y-anvil",
-    "x": 1142,
-    "y": 2530,
-    "label": "Anvil",
-    "type": "location",
-    "wikiTitle": "Smithing"
   },
   {
     "id": "poi-z-forge",
@@ -1241,8 +1193,8 @@
   },
   {
     "id": "area-4-goblin-village",
-    "x": 1950,
-    "y": 1950,
+    "x": 1783,
+    "y": 1400,
     "label": "Goblin Village",
     "type": "area",
     "wikiTitle": "Goblin Village"
