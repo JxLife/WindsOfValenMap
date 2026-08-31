@@ -211,6 +211,34 @@ html, body {
 .map-marker[data-type="ore"] { --marker-color: #b08968; }
 .map-marker[data-type="fishing"] { --marker-color: #3a9be1; }
 .map-marker[data-type="enemy"] { --marker-color: #b45ae1; }
+.map-marker[data-type="area"] { --marker-color: #fdf6e3; }
+
+/* City/area name labels: bold text centered on the point, always visible, no dot */
+.map-marker[data-type="area"] .map-marker-dot {
+  display: none;
+}
+
+.map-marker[data-type="area"] .map-marker-label {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fdf6e3;
+  text-shadow: 0 0 8px #000, 0 0 4px #000, 2px 2px 3px #000;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.map-marker[data-type="area"]:hover .map-marker-label {
+  color: #ffd76a;
+}
 
 .hint {
   position: absolute;

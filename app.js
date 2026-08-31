@@ -10,6 +10,7 @@
   const MIN_SCALE = 0.15;
   const MAX_SCALE = 6;
   const TYPE_LABELS = {
+    area: 'City / Area',
     location: 'Location',
     boss: 'Boss',
     enemy: 'Enemy',
@@ -210,6 +211,7 @@
 
   function setLegendColors() {
     const root = document.documentElement.style;
+    root.setProperty('--legend-area', '#fdf6e3');
     root.setProperty('--legend-location', '#ffb000');
     root.setProperty('--legend-boss', '#e13a3a');
     root.setProperty('--legend-enemy', '#b45ae1');

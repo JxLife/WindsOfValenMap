@@ -524,7 +524,7 @@
     "x": 2393,
     "y": 1325,
     "label": "Valen Gate",
-    "type": "location",
+    "type": "area",
     "wikiTitle": "Locations"
   },
   {
@@ -572,7 +572,7 @@
     "x": 3285,
     "y": 2451,
     "label": "Valen Port",
-    "type": "location",
+    "type": "area",
     "wikiTitle": "Locations"
   },
   {
@@ -660,7 +660,7 @@
     "x": 1190,
     "y": 3700,
     "label": "Darklands",
-    "type": "location",
+    "type": "area",
     "wikiTitle": "Locations"
   },
   {
@@ -700,7 +700,7 @@
     "x": 1190,
     "y": 2521,
     "label": "Grave Town",
-    "type": "location",
+    "type": "area",
     "wikiTitle": "Locations"
   },
   {
@@ -740,7 +740,7 @@
     "x": 2701,
     "y": 902,
     "label": "Valen City",
-    "type": "location",
+    "type": "area",
     "wikiTitle": "Locations"
   },
   {
@@ -1214,5 +1214,45 @@
     "label": "Furnace",
     "type": "location",
     "wikiTitle": "Smithing"
+  },
+  {
+    "id": "area-1-alcott-forest",
+    "x": 3300,
+    "y": 750,
+    "label": "Alcott Forest",
+    "type": "area",
+    "wikiTitle": "Locations"
+  },
+  {
+    "id": "area-2-elven-haven",
+    "x": 3950,
+    "y": 1000,
+    "label": "Elven Haven",
+    "type": "area",
+    "wikiTitle": "Elven Haven"
+  },
+  {
+    "id": "area-3-west-cavern",
+    "x": 1100,
+    "y": 1700,
+    "label": "West Cavern",
+    "type": "area",
+    "wikiTitle": "Locations"
+  },
+  {
+    "id": "area-4-goblin-village",
+    "x": 1950,
+    "y": 1950,
+    "label": "Goblin Village",
+    "type": "area",
+    "wikiTitle": "Goblin Village"
+  },
+  {
+    "id": "area-5-farmlands",
+    "x": 2900,
+    "y": 2050,
+    "label": "Farmlands",
+    "type": "area",
+    "wikiTitle": "Farmlands"
   }
 ]
