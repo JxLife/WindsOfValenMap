@@ -1,1216 +1,1216 @@
 [
   {
     "id": "poi-1-spawn",
-    "x": 4579,
-    "y": 2597,
+    "x": 2386,
+    "y": 1287,
     "label": "Spawn",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "poi-2-bank",
-    "x": 4565,
-    "y": 2596,
+    "x": 2376,
+    "y": 1296,
     "label": "Bank",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "poi-3-jewelry",
-    "x": 4542,
-    "y": 2610,
+    "x": 2369,
+    "y": 1322,
     "label": "Jewelry",
     "type": "location",
     "wikiTitle": "Valen City Jewellery Store"
   },
   {
     "id": "poi-4-forge",
-    "x": 4645,
-    "y": 2698,
+    "x": 2504,
+    "y": 1311,
     "label": "Forge",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "poi-5-anvil",
-    "x": 4631,
-    "y": 2700,
+    "x": 2496,
+    "y": 1323,
     "label": "Anvil",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "poi-6-blacksmith",
-    "x": 4600,
-    "y": 2692,
+    "x": 2468,
+    "y": 1339,
     "label": "Blacksmith",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "poi-7-potions",
-    "x": 4545,
-    "y": 2673,
+    "x": 2416,
+    "y": 1364,
     "label": "Potions",
     "type": "location",
     "wikiTitle": "Potion Making"
   },
   {
     "id": "poi-8-mining",
-    "x": 4516,
-    "y": 2640,
+    "x": 2372,
+    "y": 1362,
     "label": "Mining",
     "type": "location",
     "wikiTitle": "Mining"
   },
   {
     "id": "poi-9-shield",
-    "x": 4588,
-    "y": 2619,
+    "x": 2408,
+    "y": 1296,
     "label": "Shield",
     "type": "location",
     "wikiTitle": "Armour and Shields"
   },
   {
     "id": "poi-a-swords",
-    "x": 4583,
-    "y": 2631,
+    "x": 2413,
+    "y": 1308,
     "label": "Swords",
     "type": "location",
     "wikiTitle": "Combat"
   },
   {
     "id": "poi-b-armor",
-    "x": 4578,
-    "y": 2647,
+    "x": 2421,
+    "y": 1323,
     "label": "Armor",
     "type": "location",
     "wikiTitle": "Armour and Shields"
   },
   {
     "id": "poi-c-heal",
-    "x": 4535,
-    "y": 2650,
+    "x": 2393,
+    "y": 1355,
     "label": "Heal",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "poi-d-goblin-berserker",
-    "x": 4262,
-    "y": 2763,
+    "x": 2279,
+    "y": 1628,
     "label": "Goblin Berserker",
     "type": "boss",
     "wikiTitle": "Goblin Berserker"
   },
   {
     "id": "poi-e-bank",
-    "x": 3659,
-    "y": 2502,
+    "x": 1668,
+    "y": 1870,
     "label": "Bank",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "poi-f-coal-rock",
-    "x": 3291,
-    "y": 2242,
+    "x": 1224,
+    "y": 1946,
     "label": "Coal Rock",
     "type": "ore",
     "wikiTitle": "Coal Rock"
   },
   {
     "id": "poi-g-bank",
-    "x": 5591,
-    "y": 3142,
+    "x": 3487,
+    "y": 956,
     "label": "Bank",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "poi-h-mithril",
-    "x": 6075,
-    "y": 3570,
+    "x": 4132,
+    "y": 917,
     "label": "Mithril",
     "type": "ore",
     "wikiTitle": "Mithril Ore"
   },
   {
     "id": "poi-i-mithril",
-    "x": 5877,
-    "y": 3842,
+    "x": 4184,
+    "y": 1249,
     "label": "Mithril",
     "type": "ore",
     "wikiTitle": "Mithril Ore"
   },
   {
     "id": "poi-j-elf-warden",
-    "x": 6050,
-    "y": 3752,
+    "x": 4243,
+    "y": 1063,
     "label": "Elf Warden",
     "type": "boss",
     "wikiTitle": "Elf Warden"
   },
   {
     "id": "poi-k-skeleton-miner",
-    "x": 4445,
-    "y": 2502,
+    "x": 2224,
+    "y": 1314,
     "label": "Skeleton Miner",
     "type": "enemy",
     "wikiTitle": "Skeleton Miner"
   },
   {
     "id": "poi-l-skeleton",
-    "x": 4125,
-    "y": 3146,
+    "x": 2453,
+    "y": 1996,
     "label": "Skeleton",
     "type": "enemy",
     "wikiTitle": "Skeleton"
   },
   {
     "id": "poi-m-goblin-chieftain",
-    "x": 4090,
-    "y": 2140,
+    "x": 1717,
+    "y": 1309,
     "label": "Goblin Chieftain",
     "type": "boss",
     "wikiTitle": "Goblin Chieftain"
   },
   {
     "id": "poi-n-mithril-rock",
-    "x": 3333,
-    "y": 2075,
+    "x": 1136,
+    "y": 1799,
     "label": "Mithril Rock",
     "type": "ore",
     "wikiTitle": "Mithril Rock"
   },
   {
     "id": "poi-o-iron-rock",
-    "x": 3469,
-    "y": 2107,
+    "x": 1255,
+    "y": 1725,
     "label": "Iron Rock",
     "type": "ore",
     "wikiTitle": "Iron Rock"
   },
   {
     "id": "poi-p-iron-and-coal",
-    "x": 4715,
-    "y": 3134,
+    "x": 2862,
+    "y": 1570,
     "label": "Iron and Coal",
     "type": "ore",
     "wikiTitle": "Iron Ore"
   },
   {
     "id": "poi-q-bandit-leader",
-    "x": 4988,
-    "y": 3319,
+    "x": 3186,
+    "y": 1508,
     "label": "Bandit Leader",
     "type": "boss",
     "wikiTitle": "Bandit Leader"
   },
   {
     "id": "poi-r-bandit-mercenary-boss",
-    "x": 5633,
-    "y": 2925,
+    "x": 3363,
+    "y": 773,
     "label": "Bandit Mercenary Boss",
     "type": "boss",
     "wikiTitle": "Bandit Mercenary Boss"
   },
   {
     "id": "poi-s-highwayman",
-    "x": 3929,
-    "y": 2877,
+    "x": 2125,
+    "y": 1944,
     "label": "Highwayman",
     "type": "enemy",
     "wikiTitle": "Highwayman"
   },
   {
     "id": "poi-t-goblin-villager",
-    "x": 4055,
-    "y": 2362,
+    "x": 1849,
+    "y": 1491,
     "label": "Goblin Villager",
     "type": "enemy",
     "wikiTitle": "Goblin Villager"
   },
   {
     "id": "poi-u-skeleton-knight",
-    "x": 3468,
-    "y": 2077,
+    "x": 1233,
+    "y": 1705,
     "label": "Skeleton Knight",
     "type": "enemy",
     "wikiTitle": "Skeleton Knight"
   },
   {
     "id": "poi-v-tin-and-copper",
-    "x": 4393,
-    "y": 2561,
+    "x": 2229,
+    "y": 1393,
     "label": "Tin and Copper",
     "type": "ore",
     "wikiTitle": "Tin Ore"
   },
   {
     "id": "poi-w-bank",
-    "x": 2855,
-    "y": 2640,
+    "x": 1198,
+    "y": 2536,
     "label": "Bank",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "poi-x-heal",
-    "x": 2865,
-    "y": 2615,
+    "x": 1187,
+    "y": 2511,
     "label": "Heal",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "poi-y-anvil",
-    "x": 2820,
-    "y": 2596,
+    "x": 1142,
+    "y": 2530,
     "label": "Anvil",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "poi-z-forge",
-    "x": 2865,
-    "y": 2571,
+    "x": 1156,
+    "y": 2480,
     "label": "Forge",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "poi-10-skeleton-miner",
-    "x": 2623,
-    "y": 2381,
+    "x": 850,
+    "y": 2517,
     "label": "Skeleton Miner",
     "type": "enemy",
     "wikiTitle": "Skeleton Miner"
   },
   {
     "id": "poi-11-cave-entrance",
-    "x": 3141,
-    "y": 2322,
+    "x": 1175,
+    "y": 2109,
     "label": "Cave entrance",
     "type": "location",
     "wikiTitle": "Locations"
   },
   {
     "id": "poi-12-gold-rock",
-    "x": 3100,
-    "y": 2087,
+    "x": 980,
+    "y": 1972,
     "label": "Gold Rock",
     "type": "ore",
     "wikiTitle": "Gold Rock (Ore)"
   },
   {
     "id": "poi-13-skeleton-pioneer",
-    "x": 3258,
-    "y": 1757,
+    "x": 858,
+    "y": 1627,
     "label": "Skeleton Pioneer",
     "type": "boss",
     "wikiTitle": "Skeleton Pioneer"
   },
   {
     "id": "poi-14-bandit-mercenary",
-    "x": 5621,
-    "y": 3014,
+    "x": 3418,
+    "y": 845,
     "label": "Bandit Mercenary",
     "type": "enemy",
     "wikiTitle": "Bandit Mercenary"
   },
   {
     "id": "poi-15-elf",
-    "x": 5844,
-    "y": 3637,
+    "x": 4016,
+    "y": 1127,
     "label": "Elf",
     "type": "enemy",
     "wikiTitle": "Elf"
   },
   {
     "id": "poi-16-elf-scholar",
-    "x": 5800,
-    "y": 3686,
+    "x": 4020,
+    "y": 1193,
     "label": "Elf Scholar",
     "type": "enemy",
     "wikiTitle": "Elf Scholar"
   },
   {
     "id": "poi-17-bandit",
-    "x": 4796,
-    "y": 3314,
+    "x": 3046,
+    "y": 1640,
     "label": "Bandit",
     "type": "enemy",
     "wikiTitle": "Bandit"
   },
   {
     "id": "poi-18-goblin",
-    "x": 4325,
-    "y": 2818,
+    "x": 2363,
+    "y": 1622,
     "label": "Goblin",
     "type": "enemy",
     "wikiTitle": "Goblin"
   },
   {
     "id": "game-1-marker-miningspot",
-    "x": 3912,
-    "y": 1995,
+    "x": 1489,
+    "y": 1332,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-2-marker-miningspot",
-    "x": 4380,
-    "y": 2561,
+    "x": 2220,
+    "y": 1402,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-3-marker-fishingspot",
-    "x": 4286,
-    "y": 2572,
+    "x": 2161,
+    "y": 1476,
     "label": "Fishing Spot",
     "type": "fishing",
     "wikiTitle": "Fishing"
   },
   {
     "id": "game-4-marker-wandshop",
-    "x": 4504,
-    "y": 2643,
+    "x": 2366,
+    "y": 1372,
     "label": "Wand Shop",
     "type": "location",
     "wikiTitle": "Magic"
   },
   {
     "id": "game-5-marker-respawn",
-    "x": 4540,
-    "y": 2646,
+    "x": 2393,
+    "y": 1349,
     "label": "Respawn",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-6-marker-fishingspot",
-    "x": 4327,
-    "y": 2630,
+    "x": 2232,
+    "y": 1488,
     "label": "Fishing Spot",
     "type": "fishing",
     "wikiTitle": "Fishing"
   },
   {
     "id": "game-7-marker-archeryshop",
-    "x": 4501,
-    "y": 2618,
+    "x": 2346,
+    "y": 1356,
     "label": "Archery Shop",
     "type": "location",
     "wikiTitle": "Archery"
   },
   {
     "id": "game-8-marker-votingbooth",
-    "x": 4558,
-    "y": 2578,
+    "x": 2358,
+    "y": 1288,
     "label": "Voting Booth",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-9-marker-jewelleryshop",
-    "x": 4541,
-    "y": 2602,
+    "x": 2363,
+    "y": 1317,
     "label": "Jewellery Shop",
     "type": "location",
     "wikiTitle": "Valen City Jewellery Store"
   },
   {
     "id": "game-10-marker-bank",
-    "x": 4557,
-    "y": 2595,
+    "x": 2369,
+    "y": 1301,
     "label": "Bank",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-11-marker-miningshop",
-    "x": 4484,
-    "y": 2601,
+    "x": 2322,
+    "y": 1356,
     "label": "Mining Shop",
     "type": "location",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-12-marker-fishingspot",
-    "x": 4494,
-    "y": 2798,
+    "x": 2468,
+    "y": 1489,
     "label": "Fishing Spot",
     "type": "fishing",
     "wikiTitle": "Fishing"
   },
   {
     "id": "game-13-marker-weaponshop",
-    "x": 4587,
-    "y": 2633,
+    "x": 2417,
+    "y": 1306,
     "label": "Weapon Shop",
     "type": "location",
     "wikiTitle": "Combat"
   },
   {
     "id": "game-14-marker-fishingspot",
-    "x": 4539,
-    "y": 2910,
+    "x": 2579,
+    "y": 1536,
     "label": "Fishing Spot",
     "type": "fishing",
     "wikiTitle": "Fishing"
   },
   {
     "id": "game-15-marker-fishingspot",
-    "x": 4536,
-    "y": 3040,
+    "x": 2669,
+    "y": 1630,
     "label": "Fishing Spot",
     "type": "fishing",
     "wikiTitle": "Fishing"
   },
   {
     "id": "game-16-marker-cuttingtable",
-    "x": 4573,
-    "y": 2708,
+    "x": 2460,
+    "y": 1369,
     "label": "Cutting Table",
     "type": "location",
     "wikiTitle": "Potion Making"
   },
   {
     "id": "game-17-marker-armourshop",
-    "x": 4583,
-    "y": 2646,
+    "x": 2424,
+    "y": 1318,
     "label": "Armour Shop",
     "type": "location",
     "wikiTitle": "Armour and Shields"
   },
   {
     "id": "game-18-marker-smithingshop",
-    "x": 4608,
-    "y": 2686,
+    "x": 2470,
+    "y": 1329,
     "label": "Smithing Shop",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "game-19-marker-fishingshop",
-    "x": 4514,
-    "y": 2694,
+    "x": 2409,
+    "y": 1401,
     "label": "Fishing Shop",
     "type": "location",
     "wikiTitle": "Fishing"
   },
   {
     "id": "game-20-marker-potionshop",
-    "x": 4544,
-    "y": 2680,
+    "x": 2420,
+    "y": 1370,
     "label": "Potion Shop",
     "type": "location",
     "wikiTitle": "Potion Making"
   },
   {
     "id": "game-21-marker-quest_openthegates",
-    "x": 4630,
-    "y": 2561,
+    "x": 2397,
+    "y": 1225,
     "label": "Open The Gates (Quest)",
     "type": "location",
     "wikiTitle": "Open The Gates"
   },
   {
     "id": "game-22-marker-valengate",
-    "x": 4557,
-    "y": 2629,
+    "x": 2393,
+    "y": 1325,
     "label": "Valen Gate",
     "type": "location",
     "wikiTitle": "Locations"
   },
   {
     "id": "game-23-marker-cauldron",
-    "x": 4542,
-    "y": 2718,
+    "x": 2446,
+    "y": 1398,
     "label": "Cauldron",
     "type": "location",
     "wikiTitle": "Potion Making"
   },
   {
     "id": "game-24-marker-reductiontable",
-    "x": 4563,
-    "y": 2720,
+    "x": 2462,
+    "y": 1385,
     "label": "Reduction Table",
     "type": "location",
     "wikiTitle": "Potion Making"
   },
   {
     "id": "game-25-marker-crushingstation",
-    "x": 4565,
-    "y": 2704,
+    "x": 2452,
+    "y": 1372,
     "label": "Crushing Station",
     "type": "location",
     "wikiTitle": "Potion Making"
   },
   {
     "id": "game-26-marker-respawn",
-    "x": 2872,
-    "y": 2613,
+    "x": 1190,
+    "y": 2505,
     "label": "Respawn",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-27-marker-furnace",
-    "x": 2861,
-    "y": 2567,
+    "x": 1150,
+    "y": 2480,
     "label": "Furnace",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "game-28-marker-valenport",
-    "x": 4391,
-    "y": 4056,
+    "x": 3285,
+    "y": 2451,
     "label": "Valen Port",
     "type": "location",
     "wikiTitle": "Locations"
   },
   {
     "id": "game-29-marker-votingbooth",
-    "x": 4426,
-    "y": 4039,
+    "x": 3298,
+    "y": 2414,
     "label": "Voting Booth",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-30-marker-miningspot",
-    "x": 4728,
-    "y": 3136,
+    "x": 2873,
+    "y": 1562,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-31-marker-fishingspot",
-    "x": 5271,
-    "y": 3385,
+    "x": 3433,
+    "y": 1354,
     "label": "Fishing Spot",
     "type": "fishing",
     "wikiTitle": "Fishing"
   },
   {
     "id": "game-32-marker-fishingspot",
-    "x": 5501,
-    "y": 3337,
+    "x": 3561,
+    "y": 1158,
     "label": "Fishing Spot",
     "type": "fishing",
     "wikiTitle": "Fishing"
   },
   {
     "id": "game-33-marker-fishingspot",
-    "x": 5516,
-    "y": 3583,
+    "x": 3746,
+    "y": 1321,
     "label": "Fishing Spot",
     "type": "fishing",
     "wikiTitle": "Fishing"
   },
   {
     "id": "game-34-marker-fishingspot",
-    "x": 5576,
-    "y": 3599,
+    "x": 3800,
+    "y": 1290,
     "label": "Fishing Spot",
     "type": "fishing",
     "wikiTitle": "Fishing"
   },
   {
     "id": "game-35-marker-bank",
-    "x": 5600,
-    "y": 3149,
+    "x": 3498,
+    "y": 955,
     "label": "Bank",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-36-marker-miningspot",
-    "x": 5863,
-    "y": 3829,
+    "x": 4165,
+    "y": 1250,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-37-marker-miningspot",
-    "x": 6065,
-    "y": 3584,
+    "x": 4135,
+    "y": 934,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-38-marker-miningspot",
-    "x": 1805,
-    "y": 3188,
+    "x": 842,
+    "y": 3666,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-39-marker-darklands",
-    "x": 2027,
-    "y": 3458,
+    "x": 1190,
+    "y": 3700,
     "label": "Darklands",
     "type": "location",
     "wikiTitle": "Locations"
   },
   {
     "id": "game-40-marker-potionshop",
-    "x": 2879,
-    "y": 2641,
+    "x": 1215,
+    "y": 2520,
     "label": "Potion Shop",
     "type": "location",
     "wikiTitle": "Potion Making"
   },
   {
     "id": "game-41-marker-miningshop",
-    "x": 2882,
-    "y": 2561,
+    "x": 1161,
+    "y": 2461,
     "label": "Mining Shop",
     "type": "location",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-42-marker-votingbooth",
-    "x": 2898,
-    "y": 2615,
+    "x": 1210,
+    "y": 2488,
     "label": "Voting Booth",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-43-marker-bank",
-    "x": 2862,
-    "y": 2647,
+    "x": 1208,
+    "y": 2536,
     "label": "Bank",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-44-marker-gravetown",
-    "x": 2860,
-    "y": 2624,
+    "x": 1190,
+    "y": 2521,
     "label": "Grave Town",
     "type": "location",
     "wikiTitle": "Locations"
   },
   {
     "id": "game-45-marker-miningspot",
-    "x": 3160,
-    "y": 2090,
+    "x": 1024,
+    "y": 1931,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-46-marker-miningspot",
-    "x": 3178,
-    "y": 2253,
+    "x": 1152,
+    "y": 2034,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-47-marker-miningspot",
-    "x": 3376,
-    "y": 2189,
+    "x": 1247,
+    "y": 1849,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-48-marker-bank",
-    "x": 3650,
-    "y": 2507,
+    "x": 1666,
+    "y": 1880,
     "label": "Bank",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-49-marker-valencity",
-    "x": 5073,
-    "y": 2548,
+    "x": 2701,
+    "y": 902,
     "label": "Valen City",
     "type": "location",
     "wikiTitle": "Locations"
   },
   {
     "id": "game-50-marker-miningspot",
-    "x": 3358,
-    "y": 2078,
+    "x": 1156,
+    "y": 1783,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-51-marker-miningspot",
-    "x": 3114,
-    "y": 752,
+    "x": 46,
+    "y": 1018,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-52-marker-miningspot",
-    "x": 3314,
-    "y": 886,
+    "x": 282,
+    "y": 971,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-53-marker-miningspot",
-    "x": 3584,
-    "y": 235,
+    "x": 12,
+    "y": 320,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-54-marker-miningspot",
-    "x": 3427,
-    "y": 392,
+    "x": 12,
+    "y": 542,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-55-marker-miningspot",
-    "x": 3247,
-    "y": 571,
+    "x": 12,
+    "y": 796,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-56-marker-miningspot",
-    "x": 3600,
-    "y": 361,
+    "x": 113,
+    "y": 398,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-57-marker-miningspot",
-    "x": 3487,
-    "y": 332,
+    "x": 12,
+    "y": 457,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-58-marker-miningspot",
-    "x": 3825,
-    "y": 839,
+    "x": 610,
+    "y": 577,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-59-marker-miningspot",
-    "x": 3508,
-    "y": 752,
+    "x": 324,
+    "y": 739,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-60-marker-miningspot",
-    "x": 3680,
-    "y": 642,
+    "x": 368,
+    "y": 540,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-61-marker-miningspot",
-    "x": 3833,
-    "y": 576,
+    "x": 429,
+    "y": 385,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-62-marker-miningspot",
-    "x": 3560,
-    "y": 259,
+    "x": 12,
+    "y": 354,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-63-marker-miningspot",
-    "x": 4051,
-    "y": 409,
+    "x": 466,
+    "y": 113,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-64-marker-miningspot",
-    "x": 3588,
-    "y": 1735,
+    "x": 1076,
+    "y": 1378,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-65-marker-miningspot",
-    "x": 3483,
-    "y": 1452,
+    "x": 801,
+    "y": 1252,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-66-marker-respawn",
-    "x": 3688,
-    "y": 1640,
+    "x": 1079,
+    "y": 1240,
     "label": "Respawn",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-67-marker-miningspot",
-    "x": 3519,
-    "y": 1543,
+    "x": 891,
+    "y": 1291,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-68-marker-miningspot",
-    "x": 3702,
-    "y": 1628,
+    "x": 1081,
+    "y": 1222,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-69-marker-bank",
-    "x": 3717,
-    "y": 1595,
+    "x": 1068,
+    "y": 1187,
     "label": "Bank",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-70-marker-miningspot",
-    "x": 3888,
-    "y": 1848,
+    "x": 1368,
+    "y": 1246,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-71-marker-miningspot",
-    "x": 3777,
-    "y": 1780,
+    "x": 1241,
+    "y": 1276,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-72-marker-bank",
-    "x": 4088,
-    "y": 1221,
+    "x": 1066,
+    "y": 661,
     "label": "Bank",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-73-marker-furnace",
-    "x": 4200,
-    "y": 1298,
+    "x": 1199,
+    "y": 636,
     "label": "Furnace",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "game-74-marker-miningspot",
-    "x": 3801,
-    "y": 17,
+    "x": 12,
+    "y": 12,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-75-marker-miningspot",
-    "x": 3999,
-    "y": 255,
+    "x": 320,
+    "y": 40,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-76-marker-miningspot",
-    "x": 4085,
-    "y": 301,
+    "x": 413,
+    "y": 12,
     "label": "Mining Spot",
     "type": "ore",
     "wikiTitle": "Mining"
   },
   {
     "id": "game-77-marker-butchershop",
-    "x": 5014,
-    "y": 2444,
+    "x": 2586,
+    "y": 871,
     "label": "Butcher Shop",
     "type": "location",
     "wikiTitle": "Valen City Butcher Stall"
   },
   {
     "id": "game-78-marker-spiceshop",
-    "x": 5120,
-    "y": 2459,
+    "x": 2671,
+    "y": 806,
     "label": "Spice Shop",
     "type": "location",
     "wikiTitle": "Valen City Spice Stall"
   },
   {
     "id": "game-79-marker-fishingshop",
-    "x": 5027,
-    "y": 2466,
+    "x": 2610,
+    "y": 877,
     "label": "Fishing Shop",
     "type": "location",
     "wikiTitle": "Valen City Fish Stall"
   },
   {
     "id": "game-80-marker-wandshop",
-    "x": 5117,
-    "y": 2441,
+    "x": 2656,
+    "y": 796,
     "label": "Wand Shop",
     "type": "location",
     "wikiTitle": "Valen City Wand Stall"
   },
   {
     "id": "game-81-marker-potionshop",
-    "x": 5227,
-    "y": 2404,
+    "x": 2708,
+    "y": 692,
     "label": "Potion Shop",
     "type": "location",
     "wikiTitle": "Valen City Potion Store"
   },
   {
     "id": "game-82-marker-cauldron",
-    "x": 5276,
-    "y": 2402,
+    "x": 2741,
+    "y": 656,
     "label": "Cauldron",
     "type": "location",
     "wikiTitle": "Potion Making"
   },
   {
     "id": "game-83-marker-cuttingtable",
-    "x": 5267,
-    "y": 2391,
+    "x": 2727,
+    "y": 654,
     "label": "Cutting Table",
     "type": "location",
     "wikiTitle": "Potion Making"
   },
   {
     "id": "game-84-marker-crushingstation",
-    "x": 5254,
-    "y": 2404,
+    "x": 2727,
+    "y": 673,
     "label": "Crushing Station",
     "type": "location",
     "wikiTitle": "Potion Making"
   },
   {
     "id": "game-85-marker-reductiontable",
-    "x": 5259,
-    "y": 2418,
+    "x": 2741,
+    "y": 679,
     "label": "Reduction Table",
     "type": "location",
     "wikiTitle": "Potion Making"
   },
   {
     "id": "game-86-marker-jewelleryshop",
-    "x": 5203,
-    "y": 2427,
+    "x": 2707,
+    "y": 725,
     "label": "Jewellery Shop",
     "type": "location",
     "wikiTitle": "Valen City Jewellery Store"
   },
   {
     "id": "game-87-marker-weaponshop",
-    "x": 4993,
-    "y": 2354,
+    "x": 2507,
+    "y": 822,
     "label": "Weapon Shop",
     "type": "location",
     "wikiTitle": "Valen City Weapon"
   },
   {
     "id": "game-88-marker-bakeryshop",
-    "x": 5165,
-    "y": 2440,
+    "x": 2690,
+    "y": 761,
     "label": "Bakery",
     "type": "location",
     "wikiTitle": "Valen City Bakery"
   },
   {
     "id": "game-89-marker-armourshop",
-    "x": 4946,
-    "y": 2339,
+    "x": 2463,
+    "y": 845,
     "label": "Armour Shop",
     "type": "location",
     "wikiTitle": "Valen City Armour"
   },
   {
     "id": "game-90-marker-archeryshop",
-    "x": 4913,
-    "y": 2318,
+    "x": 2425,
+    "y": 853,
     "label": "Archery Shop",
     "type": "location",
     "wikiTitle": "Valen City Fletcher"
   },
   {
     "id": "game-91-marker-respawn",
-    "x": 5068,
-    "y": 2443,
+    "x": 2623,
+    "y": 832,
     "label": "Respawn",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-92-marker-anvil",
-    "x": 4661,
-    "y": 2409,
+    "x": 2311,
+    "y": 1096,
     "label": "Anvil",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "game-93-marker-furnace",
-    "x": 4827,
-    "y": 2503,
+    "x": 2495,
+    "y": 1045,
     "label": "Furnace",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "game-94-marker-bank",
-    "x": 5134,
-    "y": 2347,
+    "x": 2602,
+    "y": 717,
     "label": "Bank",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-95-marker-votingbooth",
-    "x": 5121,
-    "y": 2390,
+    "x": 2623,
+    "y": 757,
     "label": "Voting Booth",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-96-marker-anvil",
-    "x": 4637,
-    "y": 2693,
+    "x": 2495,
+    "y": 1313,
     "label": "Anvil",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "game-97-marker-furnace",
-    "x": 4652,
-    "y": 2689,
+    "x": 2503,
+    "y": 1300,
     "label": "Furnace",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "game-98-marker-respawn",
-    "x": 4332,
-    "y": 4016,
+    "x": 3215,
+    "y": 2464,
     "label": "Respawn",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-99-marker-anvil",
-    "x": 4482,
-    "y": 3973,
+    "x": 3291,
+    "y": 2328,
     "label": "Anvil",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "game-100-marker-furnace",
-    "x": 4516,
-    "y": 3991,
+    "x": 3327,
+    "y": 2317,
     "label": "Furnace",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "game-101-marker-bank",
-    "x": 4442,
-    "y": 4046,
+    "x": 3314,
+    "y": 2408,
     "label": "Bank",
     "type": "location",
     "wikiTitle": "Getting Started"
   },
   {
     "id": "game-102-marker-fishingshop",
-    "x": 4421,
-    "y": 4066,
+    "x": 3313,
+    "y": 2437,
     "label": "Fishing Shop",
     "type": "location",
     "wikiTitle": "Fishing"
   },
   {
     "id": "game-103-marker-potionshop",
-    "x": 4540,
-    "y": 4003,
+    "x": 3353,
+    "y": 2308,
     "label": "Potion Shop",
     "type": "location",
     "wikiTitle": "Potion Making"
   },
   {
     "id": "game-104-marker-shieldshop",
-    "x": 4496,
-    "y": 4043,
+    "x": 3350,
+    "y": 2367,
     "label": "Shield Shop",
     "type": "location",
     "wikiTitle": "Armour and Shields"
   },
   {
     "id": "game-105-marker-cuttingtable",
-    "x": 4550,
-    "y": 4055,
+    "x": 3397,
+    "y": 2338,
     "label": "Cutting Table",
     "type": "location",
     "wikiTitle": "Potion Making"
   },
   {
     "id": "game-106-marker-anvil",
-    "x": 2822,
-    "y": 2597,
+    "x": 1144,
+    "y": 2529,
     "label": "Anvil",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "game-107-marker-anvil",
-    "x": 5026,
-    "y": 2367,
+    "x": 2540,
+    "y": 808,
     "label": "Anvil",
     "type": "location",
     "wikiTitle": "Smithing"
   },
   {
     "id": "game-108-marker-furnace",
-    "x": 5018,
-    "y": 2354,
+    "x": 2525,
+    "y": 804,
     "label": "Furnace",
     "type": "location",
     "wikiTitle": "Smithing"
