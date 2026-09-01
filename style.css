@@ -240,6 +240,33 @@ html, body {
   color: #ffd76a;
 }
 
+/* Clustered marker: several same-type markers collapsed into one dot when
+   zoomed out far enough that they'd otherwise overlap. */
+.map-marker-cluster {
+  width: 22px;
+  height: 22px;
+}
+.map-marker-cluster .map-marker-dot {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.map-marker-cluster:hover .map-marker-dot {
+  transform: scale(1.15);
+}
+.map-marker-cluster .cluster-count {
+  color: #2b2418;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1;
+  pointer-events: none;
+}
+.map-marker-cluster:hover .cluster-count {
+  color: #2b2418;
+}
+
 .hint {
   position: absolute;
   bottom: 8px;

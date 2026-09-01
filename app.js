@@ -18,9 +18,12 @@
     fishing: 'Fishing Spot',
   };
 
+  const CLUSTER_PIXELS = 45;
+
   let markers = [];
   let activeTypes = new Set(Object.keys(TYPE_LABELS));
   let scale = 1;
+  let lastClusterScale = null;
   let offsetX = 0;
   let offsetY = 0;
   let dragging = false;
@@ -32,7 +35,47 @@
 
   function applyTransform() {
     mapLayer.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scale})`;
-    updateMarkerPositions();
+    if (scale !== lastClusterScale) {
+      lastClusterScale = scale;
+      renderMarkers();
+    } else {
+      updateMarkerPositions();
+    }
+  }
+
+  // Same-type markers that would overlap on screen at the current zoom level
+  // are grouped into a single cluster dot (single-linkage: a marker joins a
+  // group if it's close enough to ANY member already in it, so a loose chain
+  // of nearby dots still collapses into one blob).
+  function computeClusters() {
+    const byType = {};
+    markers.forEach((m) => {
+      const t = m.type || 'location';
+      (byType[t] = byType[t] || []).push(m);
+    });
+    const clusters = [];
+    Object.values(byType).forEach((list) => {
+      const used = new Array(list.length).fill(false);
+      for (let i = 0; i < list.length; i++) {
+        if (used[i]) continue;
+        const group = [list[i]];
+        used[i] = true;
+        for (let j = i + 1; j < list.length; j++) {
+          if (used[j]) continue;
+          const closeToGroup = group.some((g) => {
+            const dx = (g.x - list[j].x) * scale;
+            const dy = (g.y - list[j].y) * scale;
+            return Math.hypot(dx, dy) < CLUSTER_PIXELS;
+          });
+          if (closeToGroup) {
+            group.push(list[j]);
+            used[j] = true;
+          }
+        }
+        clusters.push(group);
+      }
+    });
+    return clusters;
   }
 
   function updateMarkerPositions() {
@@ -100,26 +143,56 @@
     });
   }
 
+  function renderSingleMarker(m) {
+    const el = document.createElement('div');
+    el.className = 'map-marker';
+    el.dataset.type = m.type || 'location';
+    el.dataset.x = m.x;
+    el.dataset.y = m.y;
+    el.dataset.label = m.label;
+    el.innerHTML = '<div class="map-marker-dot"></div><div class="map-marker-label"></div>';
+    el.querySelector('.map-marker-label').textContent = m.label;
+    el.title = m.wikiTitle ? `${m.label} — click to open wiki page` : m.label;
+
+    if (m.wikiTitle) {
+      el.addEventListener('click', (e) => {
+        e.stopPropagation();
+        window.open(WIKI_BASE + encodeURIComponent(m.wikiTitle.replace(/ /g, '_')), '_blank', 'noopener');
+      });
+    }
+    return el;
+  }
+
+  function renderClusterMarker(group) {
+    const cx = group.reduce((s, m) => s + m.x, 0) / group.length;
+    const cy = group.reduce((s, m) => s + m.y, 0) / group.length;
+    const type = group[0].type || 'location';
+    const el = document.createElement('div');
+    el.className = 'map-marker map-marker-cluster';
+    el.dataset.type = type;
+    el.dataset.x = cx;
+    el.dataset.y = cy;
+    el.dataset.label = group.map((m) => m.label).join(', ');
+    el.innerHTML = '<div class="map-marker-dot"><span class="cluster-count"></span></div><div class="map-marker-label"></div>';
+    el.querySelector('.cluster-count').textContent = group.length;
+    el.querySelector('.map-marker-label').textContent = `${group.length} ${TYPE_LABELS[type] || 'markers'}`;
+    el.title = `${group.length} markers here — click to zoom in`;
+    el.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const rect = viewport.getBoundingClientRect();
+      const screenX = rect.left + offsetX + cx * scale;
+      const screenY = rect.top + offsetY + cy * scale;
+      zoomAt(screenX, screenY, 2.2);
+    });
+    return el;
+  }
+
   function renderMarkers() {
     markerLayer.innerHTML = '';
-    markers.forEach((m) => {
-      const el = document.createElement('div');
-      el.className = 'map-marker';
-      el.dataset.type = m.type || 'location';
-      el.dataset.x = m.x;
-      el.dataset.y = m.y;
-      el.dataset.label = m.label;
-      el.innerHTML = '<div class="map-marker-dot"></div><div class="map-marker-label"></div>';
-      el.querySelector('.map-marker-label').textContent = m.label;
-      el.title = m.wikiTitle ? `${m.label} — click to open wiki page` : m.label;
-
-      if (m.wikiTitle) {
-        el.addEventListener('click', (e) => {
-          e.stopPropagation();
-          window.open(WIKI_BASE + encodeURIComponent(m.wikiTitle.replace(/ /g, '_')), '_blank', 'noopener');
-        });
-      }
-
+    const searching = searchInput.value.trim().length > 0;
+    const groups = searching ? markers.map((m) => [m]) : computeClusters();
+    groups.forEach((group) => {
+      const el = group.length === 1 ? renderSingleMarker(group[0]) : renderClusterMarker(group);
       markerLayer.appendChild(el);
     });
     updateMarkerPositions();
@@ -200,7 +273,7 @@
   });
   document.getElementById('zoom-reset').addEventListener('click', fitToViewport);
 
-  searchInput.addEventListener('input', applyFilters);
+  searchInput.addEventListener('input', renderMarkers);
 
   window.addEventListener('resize', fitToViewport);
 
