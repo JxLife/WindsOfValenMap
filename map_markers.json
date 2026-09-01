@@ -88,30 +88,6 @@
     "wikiTitle": "Goblin Berserker"
   },
   {
-    "id": "poi-f-coal-rock",
-    "x": 1224,
-    "y": 1946,
-    "label": "Coal Rock",
-    "type": "ore",
-    "wikiTitle": "Coal Rock"
-  },
-  {
-    "id": "poi-h-mithril",
-    "x": 4132,
-    "y": 917,
-    "label": "Mithril",
-    "type": "ore",
-    "wikiTitle": "Mithril Ore"
-  },
-  {
-    "id": "poi-i-mithril",
-    "x": 4184,
-    "y": 1249,
-    "label": "Mithril",
-    "type": "ore",
-    "wikiTitle": "Mithril Ore"
-  },
-  {
     "id": "poi-j-elf-warden",
     "x": 4243,
     "y": 1063,
@@ -142,30 +118,6 @@
     "label": "Goblin Chieftain",
     "type": "boss",
     "wikiTitle": "Goblin Chieftain"
-  },
-  {
-    "id": "poi-n-mithril-rock",
-    "x": 1136,
-    "y": 1799,
-    "label": "Mithril Rock",
-    "type": "ore",
-    "wikiTitle": "Mithril Rock"
-  },
-  {
-    "id": "poi-o-iron-rock",
-    "x": 1255,
-    "y": 1725,
-    "label": "Iron Rock",
-    "type": "ore",
-    "wikiTitle": "Iron Rock"
-  },
-  {
-    "id": "poi-p-iron-and-coal",
-    "x": 2862,
-    "y": 1570,
-    "label": "Iron and Coal",
-    "type": "ore",
-    "wikiTitle": "Iron Ore"
   },
   {
     "id": "poi-q-bandit-leader",
@@ -208,14 +160,6 @@
     "wikiTitle": "Skeleton Knight"
   },
   {
-    "id": "poi-v-tin-and-copper",
-    "x": 2229,
-    "y": 1393,
-    "label": "Tin and Copper",
-    "type": "ore",
-    "wikiTitle": "Tin Ore"
-  },
-  {
     "id": "poi-x-heal",
     "x": 1187,
     "y": 2511,
@@ -246,14 +190,6 @@
     "label": "Cave entrance",
     "type": "location",
     "wikiTitle": "Locations"
-  },
-  {
-    "id": "poi-12-gold-rock",
-    "x": 980,
-    "y": 1972,
-    "label": "Gold Rock",
-    "type": "ore",
-    "wikiTitle": "Gold Rock (Ore)"
   },
   {
     "id": "poi-13-skeleton-pioneer",
@@ -315,9 +251,9 @@
     "id": "game-2-marker-miningspot",
     "x": 2220,
     "y": 1402,
-    "label": "Mining Spot",
+    "label": "Mining Spot: Tin & Copper Ore",
     "type": "ore",
-    "wikiTitle": "Mining"
+    "wikiTitle": "Tin Ore"
   },
   {
     "id": "game-4-marker-wandshop",
@@ -499,9 +435,9 @@
     "id": "game-30-marker-miningspot",
     "x": 2873,
     "y": 1562,
-    "label": "Mining Spot",
+    "label": "Mining Spot: Iron & Coal Ore",
     "type": "ore",
-    "wikiTitle": "Mining"
+    "wikiTitle": "Iron Ore"
   },
   {
     "id": "game-35-marker-bank",
@@ -515,17 +451,17 @@
     "id": "game-36-marker-miningspot",
     "x": 4165,
     "y": 1250,
-    "label": "Mining Spot",
+    "label": "Mining Spot: Mithril Ore",
     "type": "ore",
-    "wikiTitle": "Mining"
+    "wikiTitle": "Mithril Ore"
   },
   {
     "id": "game-37-marker-miningspot",
     "x": 4135,
     "y": 934,
-    "label": "Mining Spot",
+    "label": "Mining Spot: Mithril Ore",
     "type": "ore",
-    "wikiTitle": "Mining"
+    "wikiTitle": "Mithril Ore"
   },
   {
     "id": "game-38-marker-miningspot",
@@ -587,25 +523,25 @@
     "id": "game-45-marker-miningspot",
     "x": 1024,
     "y": 1931,
-    "label": "Mining Spot",
+    "label": "Mining Spot: Gold Ore",
     "type": "ore",
-    "wikiTitle": "Mining"
+    "wikiTitle": "Gold Rock (Ore)"
   },
   {
     "id": "game-46-marker-miningspot",
     "x": 1152,
     "y": 2034,
-    "label": "Mining Spot",
+    "label": "Mining Spot: Coal Ore",
     "type": "ore",
-    "wikiTitle": "Mining"
+    "wikiTitle": "Coal Rock"
   },
   {
     "id": "game-47-marker-miningspot",
     "x": 1247,
     "y": 1849,
-    "label": "Mining Spot",
+    "label": "Mining Spot: Iron Ore",
     "type": "ore",
-    "wikiTitle": "Mining"
+    "wikiTitle": "Iron Rock"
   },
   {
     "id": "game-48-marker-bank",
@@ -627,9 +563,9 @@
     "id": "game-50-marker-miningspot",
     "x": 1156,
     "y": 1783,
-    "label": "Mining Spot",
+    "label": "Mining Spot: Mithril Ore",
     "type": "ore",
-    "wikiTitle": "Mining"
+    "wikiTitle": "Mithril Rock"
   },
   {
     "id": "game-51-marker-miningspot",
