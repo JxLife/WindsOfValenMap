@@ -7,8 +7,14 @@
   const legendEl = document.getElementById('legend');
 
   const WIKI_BASE = 'https://windsofvalenwiki.com/w/';
+  // The map is one large (4992x5376) image scaled via CSS transform rather
+  // than tiled. At high zoom the composited surface (image size x scale) can
+  // exceed what mobile GPUs support, which is slow at best and crashes at
+  // worst. Cap how far touch/coarse-pointer devices can zoom in to stay
+  // under a safe composited-surface size; desktop keeps the full range.
+  const IS_COARSE_POINTER = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
   const MIN_SCALE = 0.15;
-  const MAX_SCALE = 6;
+  const MAX_SCALE = IS_COARSE_POINTER ? 1.6 : 6;
   const TYPE_LABELS = {
     area: 'City / Area',
     location: 'Location',
@@ -273,6 +279,7 @@
     zoomAt(rect.left + rect.width / 2, rect.top + rect.height / 2, 1 / 1.25);
   });
   document.getElementById('zoom-reset').addEventListener('click', fitToViewport);
+  document.getElementById('float-reset').addEventListener('click', fitToViewport);
 
   searchInput.addEventListener('input', renderMarkers);
 
