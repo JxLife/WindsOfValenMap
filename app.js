@@ -190,7 +190,8 @@
   function renderMarkers() {
     markerLayer.innerHTML = '';
     const searching = searchInput.value.trim().length > 0;
-    const groups = searching ? markers.map((m) => [m]) : computeClusters();
+    const fullyZoomedIn = scale >= MAX_SCALE - 0.001;
+    const groups = (searching || fullyZoomedIn) ? markers.map((m) => [m]) : computeClusters();
     groups.forEach((group) => {
       const el = group.length === 1 ? renderSingleMarker(group[0]) : renderClusterMarker(group);
       markerLayer.appendChild(el);
